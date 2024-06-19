@@ -52,3 +52,11 @@
 .contacto h4 {
     font-size: 25px;
 }
+
+@media (max-width: 320px) {
+    .maingdf{
+        flex: 2;
+
+    }
+}
+    
