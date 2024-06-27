@@ -9,12 +9,12 @@
     <link rel="shortcut icon" href="/img/logo.img.JPG" type="image/x-icon">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+  <header class="iniciocontacto">
+    <section>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Javier Garro | Hairstylist</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+            <span class="navbar-toggler-icon"></span></button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
@@ -25,19 +25,33 @@
           </div>
         </div>
       </nav>
-    <header class="cajas">
-        <h1>Formulario de contacto</h1>
-    </header>
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </section>
+    <section>
+      <div class="pcontacto">
+        <h2>Formulario de contacto</h2>
       </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        <button type="button" class="btn btn-success">Enviar</button>
+    </section>
+    <section class="formcontacto">
+      <div class="mb-5">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Email">
       </div>
-      
+      <div class="mb-5">
+        <label for="telefono" class="form-label">Telefono</label>
+        <input type="email" class="form-control"placeholder="Telefono">
+      </div>
+      <div class="mb-10">
+        <label for="mansaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+        <button type="button" class="btn btn-secondary">Enviar</button>
+      </div>
+    </section>  
+  </header>
+
+  <footer class="footer">
+    <p>© 2024 JavierGarroHairstylist</p>
+  </footer>
+
     
    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
