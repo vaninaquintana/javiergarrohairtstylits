@@ -106,4 +106,42 @@
 
 }
 
-    
+@media screen and (max-width: 480px) {
+    body {
+
+    }
+    /*QUIEN SOY MOBILE*/
+    .tqs {
+        color: white;
+        padding: 10px;
+        padding-top: 5px;
+        background-color: black;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        justify-content: center;
+        display: flex
+        
+    }
+    .pqs {
+        width: 70vh;
+        font-size: 15px;
+        display:inline-block;
+        border-radius: 10px;
+        padding: 10px;
+        margin-left: 30px
+    }
+    .imagenqscon {
+        width: 70vh;
+        display:inline-block;
+        border-radius: 10px;
+        padding: 10px;
+        margin-left: 30px;
+    }
+    /*SERVICIOS MOBILE*/
+    .col-md-4 {
+        width: 70vh;
+        display:inline-block;
+        border-radius: 10px;
+        padding: 10px;
+        margin-left: 30px;
+    }  
+}
