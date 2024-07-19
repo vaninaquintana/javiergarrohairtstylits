@@ -1,5 +1,50 @@
 @import "./partials/variables";
 @import "./partials/reset";
 @import "./partials/colores";
+@import "./partials/footer";
+@import "./partials/media-queries";
 
+.h2 {
+    font: $estilo-fuente-titulo;
+    color: $color-textos;
+    text-align: center;
+    margin: 30px;
+  }
 
+  .parrafo {
+    font: $estilo-fuente-parrafo;
+    color: $color-textos;
+    margin: 30px;
+}
+.imgqs {
+    @include imgqs ;
+    -webkit-animation:slide-in-bck-center .7s cubic-bezier(.25,.46,.45,.94) both;
+   animation:slide-in-bck-center .7s cubic-bezier(.25,.46,.45,.94) both 
+}
+.contenedorimgqs {
+    @include mobile {
+        padding: 10px;
+        width: 150%;
+        display: flex
+    }
+    @include contenedorimgqs ;
+}
+.gdf {
+    @include gdf ;
+    -webkit-animation:slide-in-bck-center .7s cubic-bezier(.25,.46,.45,.94) both;
+   animation:slide-in-bck-center .7s cubic-bezier(.25,.46,.45,.94) both 
+}
+.contenedorgdf {
+    @include mobile {
+    padding: 30px;
+    width: 100%;
+    margin-block: 10px;
+    margin-inline: 1%;
+    display: flex
+    }
+    @include contenedorgdf ;
+}
+.card {
+    -webkit-animation:slide-in-bck-center .7s cubic-bezier(.25,.46,.45,.94) both;
+   animation:slide-in-bck-center .7s cubic-bezier(.25,.46,.45,.94) both 
+}
