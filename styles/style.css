@@ -75,11 +75,12 @@
 }
 @media screen and (max-width: 480px) {
   .contenedorgdf {
-    padding: 30px;
     width: 100%;
-    margin-block: 10px;
-    margin-inline: 1%;
-    display: flex;
+    margin-block: 50px;
+    position: relative;
+    align-items: center;
+    margin: 8px;
+    display: inline-block;
   }
 }
 @media screen and (max-width: 768px) {

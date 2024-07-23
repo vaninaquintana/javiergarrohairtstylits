@@ -39,11 +39,12 @@
 }
 .contenedorgdf {
     @include mobile {
-    padding: 30px;
-    width: 100%;
-    margin-block: 10px;
-    margin-inline: 1%;
-    display: flex
+        width: 100%;
+        margin-block: 50px;
+        position: relative;
+        align-items: center;
+        margin: 8px;
+        display: inline-block;
     }
     @include tablet {
         width: 29%;
