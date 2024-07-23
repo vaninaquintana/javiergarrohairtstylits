@@ -4,6 +4,14 @@
 @import "./partials/footer";
 @import "./partials/media-queries";
 
+.encabezado {
+    @include mobile {
+        width: 90%;
+    }
+    @include tablet {
+        width: 90%;
+    }
+}
 .h2 {
     font: $estilo-fuente-titulo;
     color: $color-textos;
@@ -22,11 +30,6 @@
    animation:slide-in-bck-center .7s cubic-bezier(.25,.46,.45,.94) both 
 }
 .contenedorimgqs {
-    @include mobile {
-        padding: 10px;
-        width: 150%;
-        display: flex
-    }
     @include contenedorimgqs ;
 }
 .gdf {
@@ -42,9 +45,30 @@
     margin-inline: 1%;
     display: flex
     }
+    @include tablet {
+        width: 29%;
+        align-items: center;
+        padding: 1px
+    }
     @include contenedorgdf ;
 }
+
+
 .card {
+    @include mobile {
+        width: 100%;
+        margin-block: 30px;
+        margin-inline: 3%;
+        position: relative;
+        align-items: center;
+        margin: 35px;
+        }
+    @include tablet {
+        width: 10%;
+        display: flex;
+        padding: 1px;
+    }
     -webkit-animation:slide-in-bck-center .7s cubic-bezier(.25,.46,.45,.94) both;
    animation:slide-in-bck-center .7s cubic-bezier(.25,.46,.45,.94) both 
 }
+
